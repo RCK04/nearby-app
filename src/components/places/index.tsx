@@ -22,6 +22,7 @@ export function Places({ data }: Props){
 
     return (
         <BottomSheet 
+            enableDynamicSizing={false}
             ref={bottomSheetRef}
             snapPoints={[snapPoints.min, snapPoints.max]}
             handleIndicatorStyle={s.indicator}
